@@ -115,33 +115,34 @@ namespace ToyStore
                Console.WriteLine(num);
             }
 
+            IsInList(numbers);
+            Console.WriteLine("this is the first time through the method");
+            //if (numbers.Contains(23))
+            //{
+            //    Console.WriteLine("The list contains number 23");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The list doesn't contain number 23");
+            //}
 
-            if (numbers.Contains(23))
-            {
-                Console.WriteLine("The list contains number 23");
-            }
-            else
-            {
-                Console.WriteLine("The list doesn't contain number 23");
-            }
+            //if (numbers.Contains(77))
+            //{
+            //    Console.WriteLine("The list contains number 77");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The list doesn't contain number 77");
+            //}
 
-            if (numbers.Contains(77))
-            {
-                Console.WriteLine("The list contains number 77");
-            }
-            else
-            {
-                Console.WriteLine("The list doesn't contain number 77");
-            }
-
-            if (numbers.Contains(15))
-            {
-                Console.WriteLine("The list contains number 15");
-            }
-            else
-            {
-                Console.WriteLine("The list doesn't contain number 15");
-            }
+            //if (numbers.Contains(15))
+            //{
+            //    Console.WriteLine("The list contains number 15");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The list doesn't contain number 15");
+            //}
 
             //remove 27(not in list), 23, 922, 32, 6
 
@@ -150,32 +151,35 @@ namespace ToyStore
             numbers.Remove(32);
             numbers.RemoveAt(5);
 
-            if (numbers.Contains(23))
-            {
-                Console.WriteLine("The list contains number 23");
-            }
-            else
-            {
-                Console.WriteLine("The list doesn't contain number 23");
-            }
+            //if (numbers.Contains(23))
+            //{
+            //    Console.WriteLine("The list contains number 23");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The list doesn't contain number 23");
+            //}
 
-            if (numbers.Contains(77))
-            {
-                Console.WriteLine("The list contains number 77");
-            }
-            else
-            {
-                Console.WriteLine("The list doesn't contain number 77");
-            }
+            //if (numbers.Contains(77))
+            //{
+            //    Console.WriteLine("The list contains number 77");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The list doesn't contain number 77");
+            //}
 
-            if (numbers.Contains(15))
-            {
-                Console.WriteLine("The list contains number 15");
-            }
-            else
-            {
-                Console.WriteLine("The list doesn't contain number 15");
-            }
+            //if (numbers.Contains(15))
+            //{
+            //    Console.WriteLine("The list contains number 15");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The list doesn't contain number 15");
+            //}
+
+            IsInList(numbers);
+            Console.WriteLine("this is the second time through the method");
 
             foreach (int num in numbers)
             {
@@ -188,6 +192,39 @@ namespace ToyStore
 
 
 
+        }
+        //testing writing this method
+        static void IsInList(List <int> numbers)
+        {
+
+
+
+            if (numbers.Contains(23))
+            {
+                Console.WriteLine("The list contains number 23");
+            }
+            else
+            {
+                Console.WriteLine("The list doesn't contain number 23");
+            }
+
+            if (numbers.Contains(77))
+            {
+                Console.WriteLine("The list contains number 77");
+            }
+            else
+            {
+                Console.WriteLine("The list doesn't contain number 77");
+            }
+
+            if (numbers.Contains(15))
+            {
+                Console.WriteLine("The list contains number 15");
+            }
+            else
+            {
+                Console.WriteLine("The list doesn't contain number 15");
+            }
         }
     }
 }
